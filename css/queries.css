@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1400px) {
+  .header__content {
+    width: 85%;
+  }
+  .footer__content {
+    width: 75%;
+  }
+}
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .header__content {
+    width: 100%;
+  }
+  .service__content {
+    width: 75%;
+  }
+  .number__content {
+    width: 80%;
+  }
+  .footer__content {
+    width: 90%;
+  }
+  .footer__item h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  .header__content {
+    width: 100%;
+  }
+  .header__content ul li {
+    margin: 0 0.3rem;
+  }
+  .header__content p {
+    font-size: 1.7rem;
+  }
+  /* OPEN ACCOUNT */
+  .open--account {
+    padding: 6px 7px;
+    margin-left: 0;
+  }
+
+  /* carousel */
+  .carousel__content h1 {
+    font-size: 3rem;
+  }
+
+  /* Intro */
+  .intro__text {
+    padding: 0;
+  }
+  .intro__item h3 {
+    font-size: 1.2rem;
+  }
+  .intro__item p {
+    line-height: 23px;
+  }
+
+  /* number */
+  .number__content {
+    width: 100%;
+  }
+  .number__item p:first-of-type {
+    font-size: 1.5rem;
+  }
+  .number__item p:last-of-type {
+    font-size: 1.2rem;
+  }
+
+  /* service */
+  .service__content {
+    width: 100%;
+  }
+  .service__item h3 {
+    font-size: 1.15rem;
+  }
+
+  /* gallary  */
+  .gallary__item .gallary__overlay h3 {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  .gallary__overlay {
+    padding: 28px 7px;
+  }
+  /* .gallary__item .gallary__overlay h3 span {
+    margin-right: 10px;
+  } */
+
+  /* teams */
+  .team__content {
+    width: 98%;
+  }
+  .team__title {
+    height: 76px;
+  }
+
+  /* footer */
+  .footer__content {
+    width: 100%;
+  }
+  .team h2 {
+    font-size: 2.4rem;
+  }
+  .team__item h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+}

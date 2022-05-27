@@ -1,0 +1,13 @@
+.img__item {
+  position: relative;
+}
+.img__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.img__item img {
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+}
